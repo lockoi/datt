@@ -3,10 +3,14 @@
 Học kỳ
 @endsection
 @section('noidung')
-    <h4>
+<ul class="breadcrumb">
+    <li><a href="/">FPT Cần Thơ</a></li>
+    <li>Học Kỳ</li>
+  </ul>
+    <h1>
         <a href="/lophoc"><i class='far fa-folder-open'>String 2022</i></a>
-    </h4>
-    <h4>
+    </h1>
+    <h1>
        <a href="/lophoc"><i class='far fa-folder-open'>Summer 2022</i></a>
-    </h4>
+    </h1>
 @endsection

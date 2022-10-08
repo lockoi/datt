@@ -1,129 +1,111 @@
 
-<nav class='animated bounceInDown nav1'>
-  <ul>
-    <li class='sub-menu'>
-        <ins class='fa fa-caret-down right'> <a href="#">Kho học liệu </a></ins>
-      <ul>
-                <li><a href='#settings'>Các môn công nghệ thông tin</a></li>
-                <li><a href='#settings'>các môn cơ bản</a></li>
-                <li><a href='#settings'>Các đồ họa</a></li>
-      </ul>
-    </li>
-    <li class='sub-menu'>
-        <ins class='fa fa-caret-down '><a href="#">FPT Cần thơ
-        </a></ins>
-        <ul>
-            <li class='sub-menu'>
-                <ins class='fa fa-caret-down '><a href="/hocky">Fall 2022 </a></ins>
-
-                <ul>
-                    <li class='sub-menu'>
-                        <ins class='fa fa-caret-down '><a href="/lophoc"> Các môn cơ bản
-
-                        </a></ins>
-
-                        <ul>
-                            <li><a href="/monhoc"> Kĩ năng học tập</a></li>
-                            <li><a href="/monhoc">Kĩ năng làm việc</a></li>
-                        </ul>
+    <ul id="myUL">
+        <li><span class="caret1 span" ><img src="img/icon_root.svg" alt="Icon Kho kiến thức" title="Icon Kho kiến thức" border="0"> Kho kiến thức</span>
+          <ul class="nested">
+            <li><span class="caret1"><i class='far fa-folder-open'>  Kho học liệu FPT Polytechnic</i></span>
+              <ul class="nested">
+                <li><span class="caret1"><a href="/error">
+                    <i class='far fa-folder-open'> Các môn công nghệ thông tin</i></a></span>
+                  <ul class="nested">
+                    <li>....</li>
+                  </ul>
+                </li>
+                <li><span class="caret1"><a href="/error">
+                    <i class='far fa-folder-open'>  Các môn cơ bản</i></a></span>
+                  <ul class="nested">
+                    <li>....</li>
+                  </ul>
+                </li>
+                <li><span class="caret1"><a href="/error">
+                    <i class='far fa-folder-open'> Các môn du lịch</i></a></span>
+                  <ul class="nested">
+                    <li>....</li>
+                  </ul>
+                </li>
+               </ul>
+            <li><span class="caret1"><i class='far fa-folder-open'> FPT Polytechnic Cần Thơ</i></span>
+              <ul class="nested">
+                <li><span class="caret1"><a href="/hocky">
+                    <i class='far fa-folder-open'> Spring 2022</i></a></span>
+                  <ul class="nested">
+                    <li><span class="caret1"><a href="/lophoc">
+                        <i class='far fa-folder-open'> Thiết kế web</i></a></span>
+                      <ul class="nested">
+                        <li><a href="/monhoc">
+                            <img src="img/icon_crs.svg" alt="Icon Khóa học" title="Icon Khóa học" border="0">  PHP 3 - Cô Trần Hoàng Lệ Chi</a>
+                        </li>
+                      </ul>
                     </li>
-                    <li class='sub-menu'>
-                        <ins class='fa fa-caret-down '>  <a href="/lophoc"> Các môn công nghệ thông tin
-
-                        </a></ins>
-
-                        <ul>
-                            <li><a href="/monhoc">PHP 3</a></li>
-                            <li><a href="/monhoc">Java 5</a></li>
-                        </ul>
-                    </li>
-                    <li class='sub-menu'>
-                        <ins class='fa fa-caret-down '><a href="/lophoc"> Các môn du lịch
-
-                        </a></ins>
-                        <ul>
-                            <li><a href="/monhoc">Tuyến điểm du lịch</a></li>
-                            <li><a href="/monhoc">Thực tập lữ hành</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li class='sub-menu'>
-                <ins  class='fa fa-caret-down '><a href="/hocky">Summer 2022 </a></ins>
-
-                <ul>
-                    <li class='sub-menu'>
-                        <ins class='fa fa-caret-down '> <a href='/lophoc'> Các môn cơ bản
-
-                        </a></ins>
-                        <ul>
-                            <li><a href="/monhoc">Kĩ năng học tập</a></li>
-                            <li><a href="/monhoc">Kĩ năng làm việc</a></li>
-                        </ul>
-                    </li>
-                    <li class='sub-menu'>
-                        <ins class='fa fa-caret-down '>
-                        <a href='/lophoc'> Các môn công nghệ thông tin
-
+                    <li><span class="caret1"><a href="/lophoc">
+                        <i class='far fa-folder-open'> Thiết kế đồ hoạ</i></a></span>
+                      <ul class="nested">
+                        <li><a href="/monhoc">
+                            <img src="img/icon_crs.svg" alt="Icon Khóa học" title="Icon Khóa học" border="0">  PHP 3 - Cô Trần Hoàng Lệ Chi
                         </a>
-                    </ins>
-                        <ul>
-                            <li><a href="/monhoc">PHP 3</a></li>
-                            <li><a href="/monhoc">Java 5</a></li>
-                        </ul>
+                        </li>
+                      </ul>
                     </li>
-                    <li class='sub-menu'>
-                        <ins class='fa fa-caret-down '>
-                            <a href='/lophoc'> Các môn du lịch
-
+                  </ul>
+                </li>
+                <li><span class="caret1"><a href="/hocky">
+                    <i class='far fa-folder-open'> Fall 2022</i></a></span>
+                  <ul class="nested">
+                    <li><span class="caret1"><a href="/lophoc">
+                        <i class='far fa-folder-open'> Thiết kế web</i></a></span>
+                      <ul class="nested">
+                        <li><a href="/monhoc">
+                            <img src="img/icon_crs.svg" alt="Icon Khóa học" title="Icon Khóa học" border="0"> PHP 3 - Cô Trần Hoàng Lệ Chi
                             </a>
-                        </ins>
-                        <ul>
-                            <li><a href="/monhoc">Tuyến điểm du lịch</a></li>
-                            <li><a href="/monhoc">Thực tập lữ hành</a></li>
-                        </ul>
+                        </li>
+                      </ul>
                     </li>
-                </ul>
-            </li>
-            <li class='sub-menu'>
-                <ins class='fa fa-caret-down '><a href="/hocky">Spring 2022 </a> </ins>
-                <ul>
-                    <li class='sub-menu'>
-                        <ins class='fa fa-caret-down '> <a href='/lophoc'> Các môn cơ bản
-
-                        </a></ins>
-
-                        <ul>
-                            <li><a href="/monhoc">Kĩ năng học tập</a></li>
-                            <li><a href="/monhoc">Kĩ năng làm việc</a></li>
-                        </ul>
-                    </li>
-                    <li class='sub-menu'>
-                        <ins class='fa fa-caret-down '>
-                        <a href='/lophoc'> Các môn công nghệ thông tin
-
-                        </a>
-                    </ins>
-                        <ul>
-                            <li><a href="/monhoc">PHP 3</a></li>
-                            <li><a href="/monhoc">Java 5</a></li>
-                        </ul>
-                    </li>
-                    <li class='sub-menu'>
-                        <ins class='fa fa-caret-down '>
-                            <a href='/lophoc'> Các môn du lịch
-                              
+                    <li><span class="caret1"><a href="/lophoc">
+                        <i class='far fa-folder-open'> Thiết kế đồ hoạ</i></a></span>
+                      <ul class="nested">
+                        <li><a href="/monhoc">
+                            <img src="img/icon_crs.svg" alt="Icon Khóa học" title="Icon Khóa học" border="0"> PHP 3 - Cô Trần Hoàng Lệ Chi
                             </a>
-                        </ins>
-                        <ul>
-                            <li><a href="/monhoc">Tuyến điểm du lịch</a></li>
-                            <li><a href="/monhoc">Thực tập lữ hành</a></li>
-                        </ul>
+                        </li>
+                      </ul>
                     </li>
-                </ul>
+                  </ul>
+                </li>
+                <li><span class="caret1"><a href="/hocky">
+                    <i class='far fa-folder-open'>  Summer 2022</i></a></span>
+                  <ul class="nested">
+                    <li><span class="caret1"><a href="/lophoc">
+                        <i class='far fa-folder-open'> Thiết kế web</i></a></span>
+                      <ul class="nested">
+                        <li><a href="/monhoc">
+                            <img src="img/icon_crs.svg" alt="Icon Khóa học" title="Icon Khóa học" border="0">  PHP 3 - Cô Trần Hoàng Lệ Chi
+                            </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><span class="caret1"><a href="/lophoc">
+                        <i class='far fa-folder-open'> Thiết kế đồ hoạ</i></a></span>
+                      <ul class="nested">
+                        <li><a href="/monhoc">
+                            <img src="img/icon_crs.svg" alt="Icon Khóa học" title="Icon Khóa học" border="0"> PHP 3 - Cô Trần Hoàng Lệ Chi
+                            </a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <li><span class="left"><i class='far fa-folder-open'> Hướng dẫn sinh viên sử dụng hệ thống.</i></span></li>
+            <li><span class="caret1"><i class='far fa-folder-open'> Học liệu Blended Kỳ FA2017</i></span>
+              <ul class="nested">
+                <li><span class="caret1"><a href="/error">
+                    Kỹ năng làm việc</a></span>
+                  <ul class="nested">
+                    <li>....</li>
+                  </ul>
+                </li>
+              </ul>
             </li>
           </ul>
         </li>
-     </ul>
-</nav>
+    </ul>
 

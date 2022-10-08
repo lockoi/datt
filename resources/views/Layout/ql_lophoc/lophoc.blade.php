@@ -3,10 +3,15 @@
 Lớp học
 @endsection
 @section('noidung')
-    <h4>
+<ul class="breadcrumb">
+    <li><a href="/">FPT Cần Thơ</a></li>
+    <li><a href="/hocky">Học Kỳ</a></li>
+    <li>Lớp Học</li>
+</ul>
+    <h1>
         <a href="/monhoc"><i class='far fa-folder-open'>Thiết kế web</i></a>
-    </h4>
-    <h4>
+    </h1>
+    <h1>
        <a href="/monhoc"><i class='far fa-folder-open'>Thiết kế đồ họa</i></a>
-    </h4>
+    </h1>
 @endsection
