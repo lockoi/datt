@@ -52,7 +52,7 @@ Nộp bài
           </tr>
       </tbody>
     </table>
-    <button class="btn-info">Download</button>
+    <button class="btn2"><i class="fa fa-download"></i> Download</button>
   </div>
 @endsection
 <script>

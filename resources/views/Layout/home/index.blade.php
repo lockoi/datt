@@ -3,10 +3,13 @@
 Home
 @endsection
 @section('noidung')
-    <h4>
+<ul class="breadcrumb">
+    <li><img src="img/icon_root.svg" alt="Icon Kho kiến thức" title="Icon Kho kiến thức" border="0"> Kho kiến thức</li>
+</ul>
+    <h1>
         <a href="#"><i class='far fa-folder-open'> Kho học liệu</i></a>
-    </h4>
-    <h4>
+    </h1>
+    <h1>
        <a href="/hocky"><i class='far fa-folder-open'> Fpt cần thơ</i></a>
-    </h4>
+    </h1>
 @endsection

@@ -3,6 +3,13 @@
 Nộp bài
 @endsection
 @section('noidung')
+<ul class="breadcrumb">
+    <li><a href="/">FPT Cần Thơ</a></li>
+    <li><a href="/hocky">Học Kỳ</a></li>
+    <li><a href="/lophoc">Lớp học</a></li>
+    <li><a href="/monhoc">Môn học</a></li>
+    <li>Nộp bài</li>
+</ul>
 <nav class='animated bounceInDown nav2'>
     <ul>
         <li class='sub-menu'><ins class='fa fa-caret-down '> Lab 1</ins>
@@ -40,7 +47,7 @@ Nộp bài
                         <div class="control-label col-xs-3">Nộp Bài</div>
                         <div class="col-xs-9">
                             ten file
-                            <a class="btn2 btn-primary" href="/taifile">Nộp Bài</a>
+                            <a class="btn btn-primary" href="/taifile">Nộp Bài</a>
                         </div>
                     </div>
                     <div class="form-group">
@@ -94,7 +101,7 @@ Nộp bài
                         <div class="control-label col-xs-3">Nộp Bài</div>
                         <div class="col-xs-9">
                             ten file
-                            <a class="btn2 btn-primary" href="/taifile">Nộp Bài</a>
+                            <a class="btn btn-primary" href="/taifile">Nộp Bài</a>
                         </div>
                     </div>
                     <div class="form-group">
@@ -148,7 +155,7 @@ Nộp bài
                         <div class="control-label col-xs-3">Nộp Bài</div>
                         <div class="col-xs-9">
                             ten file
-                            <a class="btn2 btn-primary" href="/taifile">Nộp Bài</a>
+                            <a class="btn btn-primary" href="/taifile">Nộp Bài</a>
                         </div>
                     </div>
                     <div class="form-group">
@@ -203,7 +210,7 @@ Nộp bài
                         <div class="control-label col-xs-3">Nộp Bài</div>
                         <div class="col-xs-9">
                             ten file
-                            <a class="btn2 btn-primary" href="/taifile">Nộp Bài</a>
+                            <a class="btn btn-primary" href="/taifile">Nộp Bài</a>
                         </div>
                     </div>
                     <div class="form-group">
@@ -257,7 +264,7 @@ Nộp bài
                         <div class="control-label col-xs-3">Nộp Bài</div>
                         <div class="col-xs-9">
                             ten file
-                            <a class="btn2 btn-primary" href="/taifile">Nộp Bài</a>
+                            <a class="btn btn-primary" href="/taifile">Nộp Bài</a>
                         </div>
                     </div>
                     <div class="form-group">
@@ -311,7 +318,7 @@ Nộp bài
                         <div class="control-label col-xs-3">Nộp Bài</div>
                         <div class="col-xs-9">
                             ten file
-                            <a class="btn2 btn-primary" href="/taifile">Nộp Bài</a>
+                            <a class="btn btn-primary" href="/taifile">Nộp Bài</a>
                         </div>
                     </div>
                     <div class="form-group">
@@ -365,7 +372,7 @@ Nộp bài
                         <div class="control-label col-xs-3">Nộp Bài</div>
                         <div class="col-xs-9">
                             ten file
-                            <a class="btn2 btn-primary" href="/taifile">Nộp Bài</a>
+                            <a class="btn btn-primary" href="/taifile">Nộp Bài</a>
                         </div>
                     </div>
                     <div class="form-group">
@@ -420,7 +427,7 @@ Nộp bài
                         <div class="control-label col-xs-3">Nộp Bài</div>
                         <div class="col-xs-9">
                             ten file
-                            <a class="btn2 btn-primary" href="/taifile">Nộp Bài</a>
+                            <a class="btn btn-primary" href="/taifile">Nộp Bài</a>
                         </div>
                     </div>
                     <div class="form-group">

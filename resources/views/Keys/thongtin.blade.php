@@ -30,7 +30,7 @@ Thông tin cá nhân
                             <div class="form-group ">
                                 <label>Vai trò: Giảng viên</label><br>
                             </div>
-                            <a href="/capnhat"class="btn-primary">Cập nhật</a>
+                            <a href="/capnhat"class="btn btn-primary">Cập nhật</a>
                         </form>
                     </div>
                 </div>

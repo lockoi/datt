@@ -10,14 +10,11 @@
                             </div>
                             <div class="header-info-right">
                                 <ul class="header-social">
-                                    <li ><a href="#"><i class="fa fa-user"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-user-plus"></i></a></li>
                                 <li class="nav-item dropdown no-arrow">
                                     <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <span class="mr-2 d-none d-lg-inline text-gray-600 small">Thanh Lộc</span>
-                                        <img class="img-profile rounded-circle" width="20" height="20"
-                                            src="">
+                                        <img class="img-profile" width="40" height="40"
+                                            src="/img/no_photo_xsmall.jpg">
                                     </a>
                                     <!-- Dropdown - User Information -->
                                     <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -53,7 +50,7 @@
                             <div class="main-menu d-none d-md-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a href="#">Bàn làm việc</a>
+                                        <li><a href="#" style="font-size: 18px">Bàn làm việc</a>
                                             {{-- <ul class="submenu">
                                                 {{-- <li><a href="/giangvien">Giảng Viên</a></li>
                                                 <li><a href="blog.html">Blog</a></li>
@@ -61,7 +58,7 @@
                                                 <li><a href="details.html">Categori Details</a></li>
                                             </ul> --}}
                                         </li>
-                                        <li><a href="#">Kho kiến thức</a>
+                                        <li><a href="#"style="font-size: 18px">Kho kiến thức</a>
                                             <ul class="submenu">
                                                 <li><a href="/error">Các môn công nghệ thông tin</a></li>
                                                 <li><a href="/error">Các môn cơ bản</a></li>
@@ -72,7 +69,7 @@
                                     </ul>
                                 </nav>
                             </div>
-                        </div>
+                            </div>
                         <!-- Mobile Menu -->
                         <div class="col-12">
                             <div class="mobile_menu d-block d-md-none"></div>
@@ -84,3 +81,4 @@
    </div>
     <!-- Header End -->
 </header>
+

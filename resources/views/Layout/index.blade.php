@@ -9,20 +9,19 @@
         <base href="{{asset("")}}">
         <link rel="manifest" href="site.webmanifest">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 		<!-- CSS here -->
-            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-            <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-            <link rel="stylesheet" href="assets/css/ticker-style.css">
-            <link rel="stylesheet" href="assets/css/flaticon.css">
-            <link rel="stylesheet" href="assets/css/slicknav.css">
-            <link rel="stylesheet" href="assets/css/animate.min.css">
-            <link rel="stylesheet" href="assets/css/magnific-popup.css">
-            <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-            <link rel="stylesheet" href="assets/css/themify-icons.css">
-            <link rel="stylesheet" href="assets/css/slick.css">
-            <link rel="stylesheet" href="assets/css/nice-select.css">
-            <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/ticker-style.css">
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+        <link rel="stylesheet" href="assets/css/slicknav.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/themify-icons.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <link rel="stylesheet" href="assets/css/style.css">
             <link rel="stylesheet" href="css/style.css">
 
    </head>
@@ -31,46 +30,20 @@
     <main>
         <div class="container" style="margin-top:30px">
             <div class="row">
-                <div class="col-sm-4 scrollmenu">
+                <div class="col-sm-5 scrollmenu">
                     @include('layout.Nav.menudoc')
                 </div>
-                <div class="col-sm-8 vertical-menu">
+                <div class="col-sm-7 vertical-menu">
                      @yield('noidung')
                 </div>
             </div>
         </div>
     </main>
-   <footer>
-       <!-- footer-bottom aera -->
-       <div class="footer-bottom-area">
-           <div class="container">
-               <div class="footer-border">
-                    <div class="row d-flex align-items-center justify-content-between">
-                        <div class="col-lg-6">
-                            <div class="footer-copy-right">
-                                <p>
-                                    Copyright &copy;
-                                    <script>document.write(new Date().getFullYear());</script>
-                                    All rights reserved | This template is made with
-                                    <i class="ti-heart" aria-hidden="true"></i>
-                                </p>
-                            </div>
-                            </div>
-                        <div class="col-lg-6">
-                            <div class="footer-menu f-right">
-                                <ul>
-                                    <li><a href="#">Terms of use</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-               </div>
-           </div>
-       </div>
-       <!-- Footer End-->
-   </footer>
+<footer>
+    <div class="footer1">
+        <b>Permanent Link:http://dn-lms.poly.edu.vn/goto.php?target=root_1&client_id=lmsfpolypowered by ILIAS (v5.2.0 2017-02-07) | Imprint | Contact System Administration</>
+    </div>
+</footer>
 	<!-- JS here -->
 
 		<!-- All JS Custom Plugins Link Here here -->
@@ -93,14 +66,17 @@
 		<script src="./assets/js/jquery.sticky.js"></script>
 		<!-- Jquery Plugins, main Jquery -->
         <script src="./assets/js/plugins.js"></script>
-        <script src="./assets/js/main.js"></script>
         <script>
-            $('.sub-menu ul').hide();
-            $(".sub-menu ins").click(function () {
-            $(this).parent(".sub-menu").children("ul").slideToggle("100");
-            $(this).find(".right").toggleClass("fa-caret-up fa-caret-down");
-            });
-        </script>
+            var toggler = document.getElementsByClassName("caret1");
+            var i;
+
+            for (i = 0; i < toggler.length; i++) {
+              toggler[i].addEventListener("click", function() {
+                this.parentElement.querySelector(".nested").classList.toggle("tree");
+                this.classList.toggle("caret-down");
+              });
+            }
+            </script>
         <script src="/js/js.js"></script>
     </body>
 </html>
